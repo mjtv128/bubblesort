@@ -12,7 +12,8 @@ var CharactersCollection = /** @class */ (function () {
         configurable: true
     });
     CharactersCollection.prototype.compare = function (leftIndex, rightIndex) {
-        return this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase();
+        return this.data[leftIndex].toLowerCase() >
+            this.data[rightIndex].toLowerCase();
     };
     CharactersCollection.prototype.swap = function (leftIndex, rightIndex) {
         //cannot swap directly with strings

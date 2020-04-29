@@ -6,7 +6,8 @@ export class CharactersCollection{
     }
 
     compare(leftIndex: number, rightIndex: number): boolean {
-        return this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase()
+        return this.data[leftIndex].toLowerCase() >
+        this.data[rightIndex].toLowerCase()
     }
 
     swap(leftIndex: number, rightIndex: number): void {
@@ -21,3 +22,6 @@ export class CharactersCollection{
     }
 
 }
+
+
+
