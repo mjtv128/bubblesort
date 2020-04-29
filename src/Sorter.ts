@@ -1,3 +1,5 @@
+//we can delete interface if we have abstract classes
+
 interface Sortable {
     length: number;
     compare(leftIndex: number, rightIndex: number): boolean;

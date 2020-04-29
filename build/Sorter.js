@@ -1,4 +1,5 @@
 "use strict";
+//we can delete interface if we have abstract classes
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sorter = /** @class */ (function () {
     function Sorter() {
